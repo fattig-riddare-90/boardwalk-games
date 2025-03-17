@@ -60,7 +60,7 @@ h2 {
 /* services */
 
 #services .card-footer {
-    fint-weight: bold;
+    font-weight: bold;
     color: var(--highlight-color);
     background-color: transparent;
 }
@@ -103,7 +103,6 @@ h2 {
         /* sets card height for consistency" */
         #services .card-body {
         min-height: auto;
-        }
         }
     }
 
