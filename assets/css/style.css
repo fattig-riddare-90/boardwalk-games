@@ -81,3 +81,37 @@ h2 {
     background-color: lightgray;
 }
     */
+
+    /* Media queries */
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        /* sets card height for consistency" */
+       #services .card-body {
+        min-height: 191px;
+       }
+    }
+
+    /* Medium devices (small laptops and up, 992px and up) */
+    @media (min-width: 992px) {
+        /* sets card height for consistency" */
+        #services .card-body {
+        min-height: auto;
+        }
+    }
+
+    /* Large devices (desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        /* sets card height for consistency" */
+        #services .card-body {
+        min-height: 220px;
+        }
+    }
+
+    /* Extra large devices (large desktops, 1400px and up) */
+    @media (min-width: 1400px) {
+        /* sets card height for consistency" */
+        #services .card-body {
+        min-height: 195px;
+        }
+    }
