@@ -94,6 +94,18 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#events table {
+    font-size: 12px;
+}
+
+#events #discount {
+    background-color: var(--highlight-color);
+    color: white;
+    max-width: 300px;
+}
+
 /*Game Library Card*/
 
 #new-games .card, #fav-games .card {
@@ -154,8 +166,12 @@ h2 {
     /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) {
         /* sets card height for consistency" */
-       #services .card-body{
+       #services .card-body {
         min-height: 191px;
+       }
+
+       #events table {
+        font-size: 16px;
        }
     }
 
@@ -172,6 +188,10 @@ h2 {
         /* sets card height for consistency" */
         #services .card-body {
         min-height: 220px;
+        }
+
+        #events table {
+            margin-top: 90px;
         }
 
     }
